@@ -1,12 +1,12 @@
 package com.atguigu.java;
 
+import org.junit.Test;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
-import org.junit.Test;
-
-/*
+/**
  * java.io.File类
  * 1.凡是与输入、输出相关的类、接口等都定义在java.io包下
  * 2.File是一个类，可以有构造器创建其对象。此对象对应着一个文件（.txt .avi .doc .ppt .mp3 .jpg）或文件目录

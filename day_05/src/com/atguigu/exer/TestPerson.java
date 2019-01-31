@@ -1,12 +1,12 @@
 package com.atguigu.exer;
 /*
- * ÒªÇó£º(1)´´½¨PersonÀàµÄ¶ÔÏó£¬ÉèÖÃ¸Ã¶ÔÏóµÄname¡¢ageºÍsexÊôĞÔ£¬µ÷ÓÃstudy·½·¨£¬
- * Êä³ö×Ö·û´®¡°studying¡±£¬µ÷ÓÃshowAge()·½·¨ÏÔÊ¾ageÖµ£¬µ÷ÓÃaddAge()·½·¨¸ø¶ÔÏó
- * µÄageÊôĞÔÖµÔö¼Ó2Ëê¡£
-(2)´´½¨µÚ¶ş¸ö¶ÔÏó£¬Ö´ĞĞÉÏÊö²Ù×÷£¬Ìå»áÍ¬Ò»¸öÀàµÄ²»Í¬¶ÔÏóÖ®¼äµÄ¹ØÏµ¡£
+ * è¦æ±‚ï¼š(1)åˆ›å»ºPersonç±»çš„å¯¹è±¡ï¼Œè®¾ç½®è¯¥å¯¹è±¡çš„nameã€ageå’Œsexå±æ€§ï¼Œè°ƒç”¨studyæ–¹æ³•ï¼Œ
+ * è¾“å‡ºå­—ç¬¦ä¸²â€œstudyingâ€ï¼Œè°ƒç”¨showAge()æ–¹æ³•æ˜¾ç¤ºageå€¼ï¼Œè°ƒç”¨addAge()æ–¹æ³•ç»™å¯¹è±¡
+ * çš„ageå±æ€§å€¼å¢åŠ 2å²ã€‚
+(2)åˆ›å»ºç¬¬äºŒä¸ªå¯¹è±¡ï¼Œæ‰§è¡Œä¸Šè¿°æ“ä½œï¼Œä½“ä¼šåŒä¸€ä¸ªç±»çš„ä¸åŒå¯¹è±¡ä¹‹é—´çš„å…³ç³»ã€‚
 
  */
-//²âÊÔÀà
+//æµ‹è¯•ç±»
 public class TestPerson {
 	public static void main(String[] args) {
 		Person p = new Person();
@@ -20,18 +20,18 @@ public class TestPerson {
 	}
 }
 class Person{
-	//1.ÊôĞÔ
+	//1.å±æ€§
 	String name;
 	int age;
 	int sex;
-	//2.·½·¨
+	//2.æ–¹æ³•
 	public void study(){
 		System.out.println("studying");
 	}
 	public void showAge(){
-		System.out.println(age);//´òÓ¡µ÷ÓÃshowAge()·½·¨µÄ¶ÔÏóµÄageÊôĞÔ
+		System.out.println(age);//æ‰“å°è°ƒç”¨showAge()æ–¹æ³•çš„å¯¹è±¡çš„ageå±æ€§
 	}
-	//¸øµ÷ÓÃ´Ë·½·¨µÄ¶ÔÏóµÄageÊôĞÔÔö¼ÓiËê£¬²¢·µ»ØĞÂµÄage
+	//ç»™è°ƒç”¨æ­¤æ–¹æ³•çš„å¯¹è±¡çš„ageå±æ€§å¢åŠ iå²ï¼Œå¹¶è¿”å›æ–°çš„age
 	public int addAge(int i){
 		age += i;
 		return age;

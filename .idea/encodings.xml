@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/day_04/src/com/atguigu/exer/TestArray.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_04/src/com/atguigu/exer/TestArray1.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_04/src/com/atguigu/exer/TestGetSum.java" charset="UTF-8" />
@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/day_04/src/com/atguigu/java/TestException.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/exer/TestCircle.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/exer/TestOverLoad.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/exer/TestPerson.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/java/ArrayUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/java/TestArray.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_05/src/com/atguigu/java/TestOOP.java" charset="UTF-8" />
@@ -24,8 +25,6 @@
     <file url="file://$PROJECT_DIR$/day_06/src/com/atguigu/java1/Animal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_06/src/com/atguigu/java1/TestAnimal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_06/src/com/atguigu/java1/TestPerson.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/day_06/src/com/atguiug/java/TestArgs.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/day_06/src/com/atguiug/java/TestCar.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/day_07/src/com/atguigu/exer/Account.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_07/src/com/atguigu/exer/Boy.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_07/src/com/atguigu/exer/Girl.java" charset="UTF-8" />
@@ -96,7 +95,7 @@
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/exer/PayrollSystem.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/exer/SalariedEmployee.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/exer/TestCircle.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/java/TestFactoryMethod.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/java/TestFactoryMethod.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/java/TestInnerClass.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/java/TestInterface.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_11/src/com/atguigu/java/TestProduct.java" charset="UTF-8" />
@@ -181,7 +180,7 @@
     <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java/TestAOP.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java/TestClothProduct.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java1/TestInetAddress.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java1/TestTCP3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java1/TestTCP3.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/java1/TestURL.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day_20/src/com/atguigu/review/Animal.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
