@@ -1,5 +1,5 @@
 package com.atguigu.java;
-//½Ó¿ÚµÄÓ¦ÓÃ£º¹¤³§·½·¨µÄÉè¼ÆÄ£Ê½
+//æ¥å£çš„åº”ç”¨ï¼šå·¥å‚æ–¹æ³•çš„è®¾è®¡æ¨¡å¼
 public class TestFactoryMethod {
 	public static void main(String[] args) {
 		IWorkFactory i = new StudentWorkFactory();
@@ -38,7 +38,7 @@ class StudentWork implements Work{
 
 	@Override
 	public void doWork() {
-		System.out.println("Ñ§ÉúĞ´×÷Òµ");
+		System.out.println("å­¦ç”Ÿå†™ä½œä¸š");
 	}
 	
 }
@@ -46,7 +46,7 @@ class TeacherWork implements Work{
 
 	@Override
 	public void doWork() {
-		System.out.println("ÀÏÊ¦Åú¸Ä×÷Òµ");
+		System.out.println("è€å¸ˆæ‰¹æ”¹ä½œä¸š");
 	}
 	
 }
